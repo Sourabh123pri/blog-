@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15vh;
+  background-color:rgb(158 158 158 / 26%);
+}
+.card-body{
+  padding: 3px 1.25rem !important;
+  align-items: center !important;
+}
+.card{
+  box-shadow:0px 11px 4px 3px #9d9d9d2e ;
+}
+.bgColor, .card{
+  background-color: #007bff17;
+}
+
+.navBgColor{
+  background-color: #007bff96;
+}
+.notfound{
+  height: 100vh;
+  width:100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url('https://media.istockphoto.com/photos/error-page-not-found-picture-id1153372686?b=1&k=20&m=1153372686&s=170667a&w=0&h=4veHHEjI5rq2qpYWMXcHSzXfrp22SMwa79DsqqiYfAw=');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound a{
+  color: white;
+  border-radius: 6px;
+  border: #ffffff47 solid 2px;
+  padding: 5px 12px;
+}
+.notfound a:hover{
+  background-color: #ffffff47;
+  border-radius: 6px;
+  border: #ffffff47 solid 2px;
+  padding: 5px 12px;
+}
+.btnShow {
+  position: fixed;
+  bottom: 0;
+  left: 1rem;
+}
+
+.blogcontainer{
+  background-color: lightgray;
+  height: 90vh;
+  width:100vw;
+}
+
+.loader {
+  text-align: center;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 11rem auto;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.fa{
+  font-size: 25px;
+  color: #3498db;
+  cursor: pointer;
+}
+
